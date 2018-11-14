@@ -16,9 +16,8 @@ import java.util.logging.Logger;
 @EnableZuulProxy
 public class RestApplication
 {
-	private static Logger logger = Logger.getLogger( RestApplication.class.getName() );
 	public static void main(String[] args)
 	{
-		SpringApplication.run( RestApplication.class, args );
+		SpringApplication.run(RestApplication.class, args);
 	}
 }
